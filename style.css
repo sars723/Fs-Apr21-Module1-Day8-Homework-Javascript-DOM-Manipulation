@@ -1,0 +1,33 @@
+.container {
+  width: 650px;
+  margin: 40px auto;
+}
+.bg-task-List {
+}
+.task-list-item {
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 24px;
+}
+.btn {
+  width: 300px;
+
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 24px;
+}
+.btn:hover {
+  background-color: rgb(37, 37, 37);
+}
+.input-new-task,
+.input-color {
+  width: 200px;
+  height: 40px;
+}
+
+.remove-first-last {
+  display: flex;
+}
