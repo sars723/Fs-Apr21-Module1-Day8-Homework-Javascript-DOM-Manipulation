@@ -2,12 +2,14 @@
   width: 650px;
   margin: 40px auto;
 }
-.bg-task-List {
-}
 .task-list-item {
   border: 1px solid black;
   font-weight: bold;
   font-size: 24px;
+  background-color: #ccc;
+}
+#myTaskList {
+  display: none;
 }
 .btn {
   width: 300px;

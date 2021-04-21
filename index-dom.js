@@ -7,6 +7,7 @@
     */
         const addNewTask = function () {
         let UlItem = document.getElementById("myTaskList");
+        UlItem.style.display="block"
         let inputNewTask = document.getElementById("newTask");
         let newListItem = document.createElement("li");
         newListItem.innerHTML = inputNewTask.value;
@@ -86,14 +87,11 @@
 
         let container=document.querySelector(".container")
         let newUl=document.createElement("ul")
-        
+        newUl.classList.add("task-list-item")
         for(let i=0;i<arrToBeSorted.length;i++){
             let newli=document.createElement("li")
             newli.innerText=arrToBeSorted[i]
             newUl.appendChild(newli)
         }
         container.appendChild(newUl)
-        /*  return arrToBeSorted; */
-
-
         };

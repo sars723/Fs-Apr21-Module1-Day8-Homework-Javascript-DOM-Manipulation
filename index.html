@@ -28,39 +28,6 @@ The have a list of tasks and can, at any time, add a new one, delete one or sort
          Create a CSS class for the task list item with a border, a bold text and a bigger font size
          Style every button of the page to be bigger
       */
-      /*   .container {
-        width: 650px;
-        margin: 40px auto;
-      }
-      .bg-task-List {
-      }
-      .task-list-item {
-        border: 1px solid black;
-        font-weight: bold;
-        font-size: 24px;
-      }
-      .btn {
-        width: 300px;
-
-        background-color: #000000;
-        color: #ffffff;
-        padding: 15px;
-        border-radius: 10px;
-        margin: 10px;
-        font-size: 24px;
-      }
-      .btn:hover {
-        background-color: rgb(37, 37, 37);
-      }
-      .input-new-task,
-      .input-color {
-        width: 200px;
-        height: 40px;
-      }
-
-      .remove-first-last {
-        display: flex;
-      } */
     </style>
   </head>
   <body>
@@ -80,7 +47,7 @@ The have a list of tasks and can, at any time, add a new one, delete one or sort
         value="Add new Task"
         onclick="addNewTask(),getTasksAsArray()"
       />
-      <ul id="myTaskList"></ul>
+      <ul id="myTaskList" class="task-list-item"></ul>
 
       <!-- EXERCISE 3
           Create a button "Remove Last Task" to trigger the method "removeLast"
